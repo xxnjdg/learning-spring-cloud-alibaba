@@ -1,0 +1,11 @@
+server:
+  port: 27991
+spring:
+  # 服务名
+  application:
+    name: nacos-example-one
+  # 注册中心nacos地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.100.14:8848
